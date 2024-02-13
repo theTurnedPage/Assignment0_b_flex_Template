@@ -15,8 +15,8 @@ body {
 /* Header */
 .header {
     background-color: lightgray;
-    padding: 20px;
-    border: 20px black;
+    padding: 10px;
+    border: 10px black;
 }
 
 .menu-item {
