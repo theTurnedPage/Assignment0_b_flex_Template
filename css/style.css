@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 10vh;
     margin: 0;
 }
 
@@ -15,12 +15,14 @@ body {
 /* Header */
 .header {
     background-color: lightgray;
+    padding: 20px;
+    border: 20px black;
 }
 
 .menu-item {
     flex: 1;
     text-align: center;
-    padding: 10px;
+    padding: 10px;    
 }
 
 .menu-item:nth-child(1) {
@@ -46,6 +48,8 @@ body {
 /* Content */
 .content {
     flex: 3;
+    padding: 10px;
+    border: 10px black;
 }
 
 .content-column {
@@ -83,12 +87,13 @@ body {
 .footer {
     background-color: lightcoral;
     gap: 15px;
+    padding: 10px;
+    border: 10px black;
 }
 
 .footer-column {
     flex: 1;
     text-align: center;
-    padding: 10px;
 }
 
 .footer-column:nth-child(1) {
